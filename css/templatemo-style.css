@@ -574,6 +574,8 @@ figcaption {
 /* Sidebar content spacing */
 #lessonContent {
     padding: 10px;
+    overflow-y: auto;
+    max-height: calc(100vh - 200px);
 }
 .accordion-item.tm-content-container {
   border: 1px solid #ddd;
